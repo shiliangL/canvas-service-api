@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "save_types",
+  "info": {
+    "singularName": "save-type",
+    "pluralName": "save-types",
+    "displayName": "SaveType"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "desc": {
+      "type": "text"
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
